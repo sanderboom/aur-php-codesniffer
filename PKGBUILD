@@ -3,7 +3,7 @@
 
 pkgname=php-codesniffer
 _pkgname=PHP_CodeSniffer
-pkgver=3.7.2
+pkgver=3.9.2
 pkgrel=1
 pkgdesc="PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files to detect and fix violations of a defined set of coding standards."
 arch=('any')
@@ -15,10 +15,10 @@ source=("phpcs-${pkgver}.phar::https://github.com/squizlabs/${_pkgname}/releases
         "phpcbf-${pkgver}.phar::https://github.com/squizlabs/${_pkgname}/releases/download/${pkgver}/phpcbf.phar"
         "phpcbf-${pkgver}.phar.asc::https://github.com/squizlabs/${_pkgname}/releases/download/${pkgver}/phpcbf.phar.asc"
         "licence-${pkgver}.txt::https://raw.githubusercontent.com/squizlabs/${_pkgname}/${pkgver}/licence.txt")
-validpgpkeys=('A972B9ABB95D0B760B51442231C7E470E2138192')
-sha256sums=('204214c1ea5ba814fb0b2608c19cca2c10bf5ffcc9f0e3d4c34aadc0179517b7'
+validpgpkeys=('95DE904AB800754A11D80B605E6DDE998AB73B8E')
+sha256sums=('7cb7f6fbd1f66b19172728024d2e601a8185c63574ff2c50baf2b61921c4ac07'
             'SKIP'
-            '4eca732a997df08a4c97e43266eb8122f916d39bb002a000600fdd5393f4efe1'
+            '06ed26daa765a06e81548a41309280026d0ca9633dcd641a7717d9ccadaa5c3d'
             'SKIP'
             '577aa0eb3360e7b45fe436138c40d49f952e6d496987406981b6f1eee69b26e9')
 
