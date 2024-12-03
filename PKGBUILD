@@ -3,7 +3,7 @@
 
 pkgname=php-codesniffer
 _pkgname=PHP_CodeSniffer
-pkgver=3.10.3
+pkgver=3.11.1
 pkgrel=1
 pkgdesc="PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files to detect and fix violations of a defined set of coding standards."
 arch=('any')
@@ -16,9 +16,9 @@ source=("phpcs-${pkgver}.phar::https://github.com/PHPCSStandards/${_pkgname}/rel
         "phpcbf-${pkgver}.phar.asc::https://github.com/PHPCSStandards/${_pkgname}/releases/download/${pkgver}/phpcbf.phar.asc"
         "licence-${pkgver}.txt::https://raw.githubusercontent.com/PHPCSStandards/${_pkgname}/${pkgver}/licence.txt")
 validpgpkeys=('689DAD778FF08760E046228BA978220305CD5C32')
-sha256sums=('763c61a526ba2e903878cb5060e7aa49ceba56fa652bd21bef0f48bd5e06a4b8'
+sha256sums=('cd9efa1a815148918be948ae1113f0a84dd484a1a39c2f5533929af83da9fdb1'
             'SKIP'
-            'e446161933b3710a91bcbb9ca6c3e2115b90abb6a34ce4faab7b50e4c931f059'
+            'd42c95da00f0bc9fed65201d69565e0ff508ff96579d04896981f55e7799446d'
             'SKIP'
             '577aa0eb3360e7b45fe436138c40d49f952e6d496987406981b6f1eee69b26e9')
 
