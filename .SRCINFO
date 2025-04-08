@@ -1,7 +1,7 @@
 pkgbase = php-codesniffer
 	pkgdesc = PHP_CodeSniffer tokenizes PHP, JavaScript and CSS files to detect and fix violations of a defined set of coding standards.
 	pkgver = 3.12.1
-	pkgrel = 1
+	pkgrel = 3
 	url = https://github.com/PHPCSStandards/PHP_CodeSniffer
 	arch = any
 	license = BSD
